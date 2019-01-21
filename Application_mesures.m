@@ -1,3 +1,11 @@
+%% Programme doté d'une IHM permettant de commander l'analyseur de réseau Keysight
+%% FieldFox et de verfier le fonctionnement de rack de duplication
+            
+%% Cadre : Stage Onera
+%% Date : Décembre 2018
+%% Auteur : Oscar Yung
+
+
 classdef HF_FieldFox_v2 < matlab.apps.AppBase
 
     % Properties that correspond to app components
@@ -85,12 +93,7 @@ classdef HF_FieldFox_v2 < matlab.apps.AppBase
 
         % Button pushed function: RUNButton
         function RUNButtonPushed(app, event)
-            %% Programme doté d'une IHM permettant de commander l'analyseur de réseau Keysight
-            %% FieldFox et de verfier le fonctionnement de rack de duplication
-            
-            %% Cadre : Stage Onera
-            %% Date : Décembre 2018
-            %% Auteur : Oscar Yung
+     
             
             
             %                            %
